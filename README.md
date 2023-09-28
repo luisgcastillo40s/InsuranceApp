@@ -19,7 +19,9 @@ When you have a sucessful login you can see the Customers and Policies pages, in
 
 3. You can check the InsuranceWebAPI swagger at `https://localhost:44383/`.
 
-4. Then you can go to `https://localhost:44316/` in your web browser to view the website. click login and enter these credetials
+4. Then you can go to `https://localhost:44316/`
+
+in your web browser to view the website. click login and enter these credetials
 user: define with Autho
 password: define with Autho
 
