@@ -8,7 +8,7 @@ namespace InsuranceWebApp.Controllers
     public class AccountController : Controller
     {
 
-		public async Task Login(string returnUrl = "/")
+		public async Task Login(string returnUrl = "/signin-auth0")
 		{
 			await HttpContext.ChallengeAsync("Auth0", new AuthenticationProperties() { RedirectUri = returnUrl });
 		}
