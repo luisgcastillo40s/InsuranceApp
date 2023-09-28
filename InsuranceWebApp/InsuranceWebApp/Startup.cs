@@ -71,7 +71,7 @@ namespace InsuranceWebApp
 				{
 					OnRedirectToIdentityProvider = context =>
 					{
-						context.ProtocolMessage.SetParameter("audience", @"https://insuranceapp.com");
+						context.ProtocolMessage.SetParameter("audience", @"https://dev-1xqnzn5g1dtb5kth.us.auth0.com/api/v2/");
 						return Task.FromResult(0);
 					},
 					// handle the logout redirection 
